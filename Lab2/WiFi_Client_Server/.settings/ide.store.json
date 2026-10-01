@@ -1,0 +1,9 @@
+{
+  "device": "STM32L475VGT6",
+  "core": "Cortex-M4",
+  "order": 0,
+  "toolchain": "GCC",
+  "source": {
+    "sourceType": "STM32CubeIDE"
+  }
+}
