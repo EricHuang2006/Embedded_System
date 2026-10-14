@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/ble_scan.dir/link.d CMakeFiles/ble_scan.dir/ble_scan.c.o -o ble_scan   -L/home/eric/Lab3/gattlib/build/dbus  -Wl,-rpath,/home/eric/Lab3/gattlib/build/dbus ../../dbus/libgattlib.so -lglib-2.0 -L/lib -lgattlib -L/usr/lib/aarch64-linux-gnu -lglib-2.0 -lpthread -lgio-2.0 -lgobject-2.0 -lglib-2.0
