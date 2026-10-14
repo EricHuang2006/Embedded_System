@@ -5,7 +5,7 @@ import argparse
 import struct
 import time
 
-from bluepy.btle import DefaultDelegate, Peripheral, Scanner, UUID
+from bluepy.btle import BTLEDisconnectError, DefaultDelegate, Peripheral, Scanner, UUID
 
 SERVICE_UUID = UUID("a4c00000-7a67-4b5a-9f5b-c3c893bdae40")
 ACCEL_UUID = UUID("a4c00001-7a67-4b5a-9f5b-c3c893bdae40")
@@ -70,6 +70,18 @@ def characteristic(service, uuid):
     return matches[0]
 
 
+def connect_board(address, address_type):
+    for attempt in range(1, 4):
+        print(f"Connecting to {address} ({address_type}), attempt {attempt}/3...")
+        try:
+            return Peripheral(address, addrType=address_type)
+        except BTLEDisconnectError:
+            if attempt == 3:
+                raise
+            print("BLE connection did not establish; retrying in 2 seconds...")
+            time.sleep(2)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--rate", type=int, default=5,
@@ -87,8 +99,7 @@ def main():
 
     address, address_type = ((args.address, "random") if args.address
                              else find_board(args.scan))
-    print(f"Connecting to {address} ({address_type})...")
-    peripheral = Peripheral(address, addrType=address_type)
+    peripheral = connect_board(address, address_type)
     try:
         service = peripheral.getServiceByUUID(SERVICE_UUID)
         accel = characteristic(service, ACCEL_UUID)
