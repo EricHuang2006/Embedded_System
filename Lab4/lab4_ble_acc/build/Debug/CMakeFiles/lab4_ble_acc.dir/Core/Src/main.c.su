@@ -1,0 +1,13 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:106:5:main	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:218:6:SystemClock_Config	96	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:279:13:MX_DFSDM1_Init	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:317:13:MX_I2C2_Init	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:365:13:MX_QUADSPI_Init	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:398:13:MX_USART3_UART_Init	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:433:13:MX_USB_OTG_FS_PCD_Init	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:468:13:MX_GPIO_Init	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:652:6:HAL_GPIO_EXTI_Callback	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:668:6:StartTaskBLE	32	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:710:6:StartTaskACC	64	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:759:6:HAL_TIM_PeriodElapsedCallback	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/main.c:777:6:Error_Handler	4	static,ignoring_inline_asm

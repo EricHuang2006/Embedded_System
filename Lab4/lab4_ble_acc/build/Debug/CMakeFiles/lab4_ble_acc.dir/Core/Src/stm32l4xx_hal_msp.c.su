@@ -1,0 +1,11 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:62:6:HAL_MspInit	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:88:6:HAL_DFSDM_ChannelMspInit	184	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:137:6:HAL_DFSDM_ChannelMspDeInit	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:167:6:HAL_I2C_MspInit	184	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:214:6:HAL_I2C_MspDeInit	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:245:6:HAL_QSPI_MspInit	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:287:6:HAL_QSPI_MspDeInit	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:321:6:HAL_UART_MspInit	184	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:369:6:HAL_UART_MspDeInit	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:398:6:HAL_PCD_MspInit	184	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/stm32l4xx_hal_msp.c:471:6:HAL_PCD_MspDeInit	24	static

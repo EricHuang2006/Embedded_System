@@ -1,0 +1,8 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/app_bluenrg_ms.c:96:6:MX_BlueNRG_MS_Init	56	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/app_bluenrg_ms.c:217:6:MX_BlueNRG_MS_Process	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/app_bluenrg_ms.c:240:13:User_Init	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/app_bluenrg_ms.c:255:13:User_Process	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/app_bluenrg_ms.c:318:13:Set_Random_Environmental_Values	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/app_bluenrg_ms.c:329:13:Set_Random_Motion_Values	1032	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/app_bluenrg_ms.c:370:13:Reset_Motion_Values	4	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/app_bluenrg_ms.c:391:6:BSP_PB_Callback	16	static

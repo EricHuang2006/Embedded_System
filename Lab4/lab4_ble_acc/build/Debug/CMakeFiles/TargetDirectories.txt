@@ -1,0 +1,8 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/CMakeFiles/lab4_ble_acc.dir
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/CMakeFiles/edit_cache.dir
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/CMakeFiles/rebuild_cache.dir
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/cmake/stm32cubemx/CMakeFiles/BlueNRG-MS.dir
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

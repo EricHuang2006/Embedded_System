@@ -1,0 +1,8 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/Target/hci_tl_interface.c:43:9:HCI_TL_SPI_Init	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/Target/hci_tl_interface.c:79:9:HCI_TL_SPI_DeInit	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/Target/hci_tl_interface.c:93:9:HCI_TL_SPI_Reset	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/Target/hci_tl_interface.c:112:9:HCI_TL_SPI_Receive	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/Target/hci_tl_interface.c:170:9:HCI_TL_SPI_Send	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/Target/hci_tl_interface.c:226:16:IsDataAvailable	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/Target/hci_tl_interface.c:238:6:hci_tl_lowlevel_init	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/Target/hci_tl_interface.c:277:6:hci_tl_lowlevel_isr	8	static

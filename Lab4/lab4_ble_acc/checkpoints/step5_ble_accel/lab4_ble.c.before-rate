@@ -1,0 +1,79 @@
+#include "lab4_ble.h"
+#include "bluenrg_gatt_aci.h"
+#include "hci.h"
+#include "sensor.h"
+
+extern volatile uint8_t set_connectable;
+
+static uint16_t service_handle;
+static uint16_t accel_handle;
+static uint8_t service_ready;
+
+/* a4c00000-7a67-4b5a-9f5b-c3c893bdae40, least significant byte first. */
+static const uint8_t service_uuid[16] = {
+    0x40, 0xae, 0xbd, 0x93, 0xc8, 0xc3, 0x5b, 0x9f,
+    0x5a, 0x4b, 0x67, 0x7a, 0x00, 0x00, 0xc0, 0xa4
+};
+
+/* a4c00001-7a67-4b5a-9f5b-c3c893bdae40. */
+static const uint8_t accel_uuid[16] = {
+    0x40, 0xae, 0xbd, 0x93, 0xc8, 0xc3, 0x5b, 0x9f,
+    0x5a, 0x4b, 0x67, 0x7a, 0x01, 0x00, 0xc0, 0xa4
+};
+
+tBleStatus Lab4_BLE_Init(void)
+{
+    /* Reserve six records: service, XYZ declaration/value/CCCD, then
+       sampling-rate declaration/value in the next step. */
+    tBleStatus status = aci_gatt_add_serv(UUID_TYPE_128, service_uuid,
+                                        PRIMARY_SERVICE, 6, &service_handle);
+    if (status != BLE_STATUS_SUCCESS) {
+        return status;
+    }
+
+    status = aci_gatt_add_char(service_handle, UUID_TYPE_128, accel_uuid,
+                               6, CHAR_PROP_READ | CHAR_PROP_NOTIFY,
+                               ATTR_PERMISSION_NONE, GATT_DONT_NOTIFY_EVENTS,
+                               16, 0, &accel_handle);
+    if (status != BLE_STATUS_SUCCESS) {
+        return status;
+    }
+
+    /* Reads return the latest stored sample without an application callback.
+       The controller creates the CCCD and manages notification subscriptions. */
+    const uint8_t initial_value[6] = {0};
+    status = aci_gatt_update_char_value(service_handle, accel_handle,
+                                        0, sizeof(initial_value), initial_value);
+    service_ready = (status == BLE_STATUS_SUCCESS);
+    return status;
+}
+
+void Lab4_BLE_Process(void)
+{
+    if (set_connectable) {
+        Set_DeviceConnectable();
+        set_connectable = 0;
+    }
+    hci_user_evt_proc();
+}
+
+tBleStatus Lab4_BLE_UpdateAcceleration(const int16_t xyz[3])
+{
+    if (!service_ready) {
+        return BLE_STATUS_ERROR;
+    }
+
+    uint8_t payload[6];
+    for (unsigned int axis = 0; axis < 3; ++axis) {
+        /* Cast to unsigned before shifting, preserving negative values'
+           two's-complement representation without signed right shifts. */
+        uint16_t value = (uint16_t)xyz[axis];
+        payload[2 * axis] = (uint8_t)value;
+        payload[2 * axis + 1] = (uint8_t)(value >> 8);
+    }
+
+    /* Store the sample; notify a connected client if its CCCD is enabled.
+       Return a full-buffer error to the caller instead of silently hiding it. */
+    return aci_gatt_update_char_value(service_handle, accel_handle,
+                                      0, sizeof(payload), payload);
+}

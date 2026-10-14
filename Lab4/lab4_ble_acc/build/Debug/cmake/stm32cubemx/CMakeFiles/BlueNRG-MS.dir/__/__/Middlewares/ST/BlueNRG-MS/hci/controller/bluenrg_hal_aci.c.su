@@ -1,0 +1,10 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:29:12:aci_hal_get_fw_build_number	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:51:12:aci_hal_write_config_data	176	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:86:12:aci_hal_read_config_data	184	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:115:12:aci_hal_set_tx_power_level	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:138:12:aci_hal_le_tx_test_packet_number	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:161:12:aci_hal_device_standby	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:178:12:aci_hal_tone_start	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:200:12:aci_hal_tone_stop	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:217:12:aci_hal_get_link_status	72	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c:241:12:aci_hal_get_anchor_period	56	static

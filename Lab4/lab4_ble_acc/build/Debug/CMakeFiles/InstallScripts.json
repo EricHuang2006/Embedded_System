@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/cmake_install.cmake",
+		"/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

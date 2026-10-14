@@ -1,0 +1,4 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/sensor.c:70:6:Set_DeviceConnectable	80	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/sensor.c:120:6:user_notify	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/sensor.c:183:6:GAP_DisconnectionComplete_CB	4	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/sensor.c:198:6:GAP_ConnectionComplete_CB	24	static

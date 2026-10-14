@@ -1,0 +1,11 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:27:12:aci_updater_start	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:43:12:aci_updater_reboot	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:59:12:aci_get_updater_version	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:80:12:aci_get_updater_buffer_size	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:101:12:aci_erase_blue_flag	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:118:12:aci_reset_blue_flag	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:135:12:aci_updater_erase_sector	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:157:12:aci_updater_program_data_block	184	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:186:12:aci_updater_read_data_block	184	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:217:12:aci_updater_calc_crc	64	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c:246:12:aci_updater_hw_version	48	static

@@ -1,0 +1,9 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c:49:12:verify_packet	24	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c:71:13:send_cmd	160	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c:97:13:move_list	24	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c:114:13:free_event_list	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c:126:6:hci_init	24	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c:153:6:hci_register_io_bus	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c:163:5:hci_send_req	64	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c:303:6:hci_user_evt_proc	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c:321:9:hci_notify_asynch_evt	32	static

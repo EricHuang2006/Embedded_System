@@ -1,0 +1,12 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:29:6:list_init_head	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:35:9:list_is_empty	32	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:57:6:list_insert_head	32	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:71:6:list_insert_tail	32	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:85:6:list_remove_node	32	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:97:6:list_remove_head	32	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:111:6:list_remove_tail	32	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:125:6:list_insert_node_after	32	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:139:6:list_insert_node_before	32	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:153:5:list_get_size	40	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:174:6:list_get_next_node	32	static,ignoring_inline_asm
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Middlewares/ST/BlueNRG-MS/utils/ble_list.c:185:6:list_get_prev_node	32	static,ignoring_inline_asm

@@ -1,0 +1,6 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/gatt_db.c:72:12:Add_HWServW2ST_Service	64	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/gatt_db.c:119:12:Add_SWServW2ST_Service	64	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/gatt_db.c:158:12:Acc_Update	56	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/gatt_db.c:192:12:Quat_Update	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/gatt_db.c:243:6:Read_Request_CB	88	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/BlueNRG_MS/App/gatt_db.c:269:12:BlueMS_Environmental_Update	40	static

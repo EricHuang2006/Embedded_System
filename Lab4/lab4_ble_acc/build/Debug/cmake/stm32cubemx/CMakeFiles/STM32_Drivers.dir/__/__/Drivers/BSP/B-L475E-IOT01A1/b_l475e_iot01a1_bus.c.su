@@ -1,0 +1,9 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Drivers/BSP/B-L475E-IOT01A1/b_l475e_iot01a1_bus.c:89:9:BSP_SPI3_Init	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Drivers/BSP/B-L475E-IOT01A1/b_l475e_iot01a1_bus.c:130:9:BSP_SPI3_DeInit	16	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Drivers/BSP/B-L475E-IOT01A1/b_l475e_iot01a1_bus.c:156:9:BSP_SPI3_Send	24	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Drivers/BSP/B-L475E-IOT01A1/b_l475e_iot01a1_bus.c:173:10:BSP_SPI3_Recv	24	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Drivers/BSP/B-L475E-IOT01A1/b_l475e_iot01a1_bus.c:190:9:BSP_SPI3_SendRecv	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Drivers/BSP/B-L475E-IOT01A1/b_l475e_iot01a1_bus.c:259:9:BSP_GetTick	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Drivers/BSP/B-L475E-IOT01A1/b_l475e_iot01a1_bus.c:265:26:MX_SPI3_Init	24	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Drivers/BSP/B-L475E-IOT01A1/b_l475e_iot01a1_bus.c:291:13:SPI3_MspInit	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Drivers/BSP/B-L475E-IOT01A1/b_l475e_iot01a1_bus.c:332:13:SPI3_MspDeInit	16	static

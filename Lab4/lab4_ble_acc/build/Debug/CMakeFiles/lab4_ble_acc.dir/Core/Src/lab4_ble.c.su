@@ -1,0 +1,6 @@
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/lab4_ble.c:42:12:Lab4_BLE_Init	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/lab4_ble.c:101:6:Lab4_BLE_Process	8	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/lab4_ble.c:110:10:Lab4_BLE_GetSampleRateHz	4	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/lab4_ble.c:115:6:Lab4_BLE_HandleWriteRequest	48	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/lab4_ble.c:150:12:Lab4_BLE_UpdateAcceleration	40	static
+/home/eric/Documents/Embedded_Systems/Lab4/lab4_ble_acc/Core/Src/lab4_ble.c:171:12:Lab4_BLE_NotifyMotion	32	static
